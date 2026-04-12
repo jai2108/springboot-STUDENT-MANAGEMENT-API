@@ -1,0 +1,8 @@
+com\example\student_management_project\StudentRepository.class
+com\example\student_management_project\StudentService.class
+com\example\student_management_project\StudentsRepository.class
+com\example\student_management_project\StudentController.class
+com\example\student_management_project\Student.class
+com\example\student_management_project\Teacher.class
+com\example\student_management_project\TeacherController.class
+com\example\student_management_project\StudentManagementProjectApplication.class
