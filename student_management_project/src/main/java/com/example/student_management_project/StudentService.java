@@ -32,6 +32,11 @@ public class StudentService {
         return list;
     }
 
+    public Student getStudentByRollNo(int rollno){
+      Student student =  studentsRepository.findByAge(rollno);
+        return student;
+    }
+
     /*public ArrayList<Student> getListOfStudent(int age) {
 
 

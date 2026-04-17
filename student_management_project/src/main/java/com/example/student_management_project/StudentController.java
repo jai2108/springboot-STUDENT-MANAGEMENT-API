@@ -32,6 +32,12 @@ public class StudentController {
         List<Student> studentList = studentService.getStudentInfo();
         return studentList;
     }
+
+    @GetMapping("/getStudentByRollNo")
+    public Student getStudentByRollNo(@RequestParam int rollNo) {
+        Student student = studentService.getStudentByRollNo(rollNo);
+        return student;
+    }
     /*@GetMapping("/getInfoPathvarible/{rollno}")
     public Student getStudentInfoPathvarible(@PathVariable("rollno") int rollNo) {
       StudentRepository studentRepository = new StudentRepository();
